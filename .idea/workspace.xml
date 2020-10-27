@@ -16,12 +16,17 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff7fde9d-86eb-4433-91b2-a60cdada092d" name="Default Changelist" comment="1st commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ff7fde9d-86eb-4433-91b2-a60cdada092d" name="Default Changelist" comment="Start-commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,6 +159,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/react/promise" />
     </include_path>
   </component>
   <component name="ProjectId" id="1iuVbHqwXdVYpDer4nuAq1TG4U9" />
@@ -193,6 +199,7 @@
       <workItem from="1602757553075" duration="1383000" />
       <workItem from="1602838959282" duration="1020000" />
       <workItem from="1602840035120" duration="399000" />
+      <workItem from="1603792865576" duration="371000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1602839452318</created>
@@ -201,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602839452318</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Start-commit">
+      <created>1603793182852</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603793182852</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,15 +226,29 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st commit" />
+    <MESSAGE value="Start-commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start-commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="744" y="265" key="FileChooserDialogImpl" timestamp="1602839150853">
@@ -231,9 +259,10 @@
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="487" y="154" key="SettingsEditor/0.0.1920.1036@0.0.1920.1036" timestamp="1602771329719" />
-    <state x="556" y="243" key="Vcs.Push.Dialog.v2" timestamp="1602839485647">
-      <screen x="0" y="0" width="1920" height="1036" />
+    <state x="493" y="206" key="Vcs.Push.Dialog.v2" timestamp="1603793188505">
+      <screen x="0" y="0" width="1703" height="880" />
     </state>
+    <state x="493" y="206" key="Vcs.Push.Dialog.v2/0.0.1703.880@0.0.1703.880" timestamp="1603793188505" />
     <state x="556" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1036@0.0.1920.1036" timestamp="1602839485647" />
   </component>
 </project>
