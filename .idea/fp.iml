@@ -7,6 +7,12 @@
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" packagePrefix="Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/tests/Unit" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests/Feature" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/public" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/routes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bootstrap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/config" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/storage" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/asm89/stack-cors" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/barryvdh/laravel-ide-helper" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/barryvdh/reflection-docblock" />
@@ -69,6 +75,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/ralouphie/getallheaders" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/ramsey/collection" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/react/promise" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/scrivo/highlight.php" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/comparator" />
